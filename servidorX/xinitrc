@@ -1,0 +1,5 @@
+nitrogen --restore &
+slstatus &
+pulseaudio &
+picom --conf /dev/null -i 0.8 --active-opacity 1.0 --focus-exclude "x = 0 && y = 0 && override_redirect = true" &
+exec /usr/local/bin/dwm
